@@ -1,0 +1,37 @@
+
+.dashboard-section {
+    background-color: #f4f4f4;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.dashboard-actions {
+    margin-top: 2rem;
+}
+
+.dashboard-btn {
+    padding: 10px 20px;
+    background-color: #3a9a9f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.dashboard-btn:hover {
+    background-color: #2f7f7f;
+}

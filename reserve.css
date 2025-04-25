@@ -1,0 +1,72 @@
+
+.seat-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.seat.booked {
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background-color: #ffc107;
+    /* Yellow for selected seats */
+}
+
+.seat:hover:not(.booked) {
+    background-color: #0069d9;
+}
+.bus-info,
+.reserve-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reserve-form input,
+.reserve-form select {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.reserve-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reserve-form button:hover {
+    background-color: #45a049;
+}
+.link{
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.link:hover {
+    background-color: #218838;
+}
